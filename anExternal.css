@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(212, 131, 54);
+  }
+  
+ 
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+#level1_3 {
+    float: right;
+    caption-side: bottom;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#roundcorner {
+    border-radius: 25px;
+    background: #fdfa51;
+    padding: 20px; 
+    width: 100px;
+    height: 150px;  
+  }
